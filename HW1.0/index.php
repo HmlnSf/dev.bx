@@ -2,7 +2,7 @@
 
 require_once 'ReadFromConsole.php';
 
-echo 'Введите числа, которые хотите просуммировать: ';
+echo 'Введите числа, которые хотите просуммировать и ключевое слово end.'."\n";
 
 ReadFromConsole($array);
 
