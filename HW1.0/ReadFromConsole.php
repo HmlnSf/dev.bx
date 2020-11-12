@@ -11,7 +11,7 @@ function ReadFromConsole(&$array)
 	while ($array[$i] != 'end') //Считывать до ключевого слова через пробел
 	{
 		$i++;
-		echo "Число $i: ";
+		echo 'Число'.($i+1).': ';
 		$array[$i] = trim(fgets(STDIN));
 	}
 
